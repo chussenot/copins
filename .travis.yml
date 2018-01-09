@@ -1,0 +1,8 @@
+sudo: false
+language: go
+go:
+- 1.9.1
+script: make env
+env:
+  global:
+  - VERSION: 0.0.1
